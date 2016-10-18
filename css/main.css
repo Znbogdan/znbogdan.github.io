@@ -1,0 +1,151 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+.logo{
+  float: left;
+  margin: 0;
+  width: 10%;
+  text-align: center;
+}
+/* Body */
+body {
+  background-color: #000000;
+}
+a {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+/*head */
+#mhead{
+  position: relative;
+  margin-bottom: 0;
+  border: 1px solid transparent;
+}
+.navbar-inverse {
+  background-color: #1a1919;
+}
+.navbar-collapse{
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    -webkit-overflow-scrolling: touch;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+.navbar {
+  position: relative;
+  min-width: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.kitch{
+  min-width: 100%;
+}
+/* Carousel */
+.carousel img {
+    min-width: 100%;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 50px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 50px;
+}
+.carousel-indicators li {
+  border-color:#999;
+  background-color:#ccc;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 100%;
+}
+#content {
+  position: relative;
+}
+.carousels {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+/* Menu*/
+#menu-language {
+  display: none !important;
+}
+#menu-primary ul{
+  margin-right: 0;
+}
+#toggle-language {
+  display: block;
+  padding: 7px 7px;
+  height: auto;
+  color: #cccccc;
+  margin: 20px 15px 0;
+  transition: 0.5s ease-in-out;
+}
+#toggle-language:hover {
+    color: #cccccc;
+}
+#language-selector > .navbar-header {
+  float: right;
+}
+ul li {
+  border: 1px solid;
+}
+.about {
+  transition: 0.5s ease-in-out;
+}
+.about:hover {
+  background-color: #595959;
+}
+/* FOOTER */
+#callphone {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  background-color: #1a1919;
+  min-height: 90px;
+  color: #9d9d9d;
+  font-size: 12px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6667;
+}
+.credits-newslatter-social {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 15px 0;
+}
+@media only screen and (min-width: 1200px) {
+  #newsletter {
+  float: left;
+  width: 25%;
+}
+}
+@media only screen and  (min-width: 1200px) {
+  #credits {
+  float: left;
+  width: 58.3333333%;
+}
+}
